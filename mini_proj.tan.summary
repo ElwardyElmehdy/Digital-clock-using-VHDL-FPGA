@@ -1,0 +1,126 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 2.523 ns
+From           : selec[1]
+To             : compteur4bit:inst|count4[0]~_emulated
+From Clock     : --
+To Clock       : enable
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 19.994 ns
+From           : compteur4bit:inst|count4[2]~_emulated
+To             : segment1[3]
+From Clock     : clock
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 15.718 ns
+From           : selec[1]
+To             : segment1[3]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 3.878 ns
+From           : selec[0]
+To             : compteur4bit:inst|count5[0]~_emulated
+From Clock     : --
+To Clock       : clock
+Failed Paths   : 0
+
+Type           : Clock Setup: 'selec[1]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 124.97 MHz ( period = 8.002 ns )
+From           : compteur4bit:inst|count3[2]~latch
+To             : compteur4bit:inst|count4[0]~_emulated
+From Clock     : selec[1]
+To Clock       : selec[1]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'selec[0]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 128.37 MHz ( period = 7.790 ns )
+From           : compteur4bit:inst|count3[2]~latch
+To             : compteur4bit:inst|count4[0]~_emulated
+From Clock     : selec[0]
+To Clock       : selec[0]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clock'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 204.62 MHz ( period = 4.887 ns )
+From           : compteur4bit:inst|count1[1]~_emulated
+To             : compteur4bit:inst|count5[2]~_emulated
+From Clock     : clock
+To Clock       : clock
+Failed Paths   : 0
+
+Type           : Clock Setup: 'enable'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 215.19 MHz ( period = 4.647 ns )
+From           : compteur4bit:inst|count1[1]~_emulated
+To             : compteur4bit:inst|count5[2]~_emulated
+From Clock     : enable
+To Clock       : enable
+Failed Paths   : 0
+
+Type           : Clock Setup: 'heur_regl'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 450.05 MHz ( period = 2.222 ns )
+From           : reglage:inst1|count5[1]
+To             : reglage:inst1|count5[2]
+From Clock     : heur_regl
+To Clock       : heur_regl
+Failed Paths   : 0
+
+Type           : Clock Setup: 'sec_regl'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 450.05 MHz ( period = 2.222 ns )
+From           : reglage:inst1|count1[3]
+To             : reglage:inst1|count2[2]
+From Clock     : sec_regl
+To Clock       : sec_regl
+Failed Paths   : 0
+
+Type           : Clock Setup: 'min_regl'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 450.05 MHz ( period = 2.222 ns )
+From           : reglage:inst1|count3[0]
+To             : reglage:inst1|count4[0]
+From Clock     : min_regl
+To Clock       : min_regl
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

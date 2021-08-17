@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Jan 31 10:42:27 2020
+Quartus II Version : 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition
+Revision Name : mini_proj
+Top-level Entity Name : disigne_principl
+Family : Cyclone II
+Total logic elements : 343
+    Total combinational functions : 343
+    Dedicated logic registers : 106
+Total registers : 106
+Total pins : 53
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
